@@ -258,29 +258,25 @@ Several limitations should be acknowledged. Differential expression analysis ide
 
 Alexandre, H. (2013). Flor yeasts of Saccharomyces cerevisiae—Their ecology, genetics and metabolism. International Journal of Food Microbiology, 167(3), 269–275.
 
+Alexandre, H. (2013). Flor yeasts of Saccharomyces cerevisiae—Their ecology, genetics and metabolism. International Journal of Food Microbiology, 167(2), 161–169.
+
+Andrews, S. (2010). FastQC: A quality control tool for high throughput sequence data.
+
 Ashburner, M. et al. Gene Ontology Consortium. (2000). Gene ontology: Tool for the unification of biology. Nature Genetics, 25(1), 25–29.
 
 Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society: Series B, 57(1), 289–300.
 
-Gasch, A. P. et al. Brown, P. O. (2000). Genomic expression programs in the response of yeast cells to environmental changes. Molecular Biology of the Cell, 11(12), 4241–4257.
-
-Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 15(12), 550.
-
-Subramanian, A. et al. (2005). Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. Proceedings of the National Academy of Sciences, 102(43), 15545–15550.
-
-Verstrepen, K. J., & Klis, F. M. (2006). Flocculation, adhesion and biofilm formation in yeasts. Molecular Microbiology, 60(1), 5–15.
-
-Wang, Z., Gerstein, M., & Snyder, M. (2009). RNA-seq: A revolutionary tool for transcriptomics. Nature Reviews Genetics, 10(1), 57–63.
-
-Zhu, A., Ibrahim, J. G., & Love, M. I. (2018). Heavy-tailed prior distributions for sequence count data: Removing the noise and preserving large differences. Bioinformatics, 35(12), 2084–2092.
-
-Andrews, S. (2010). FastQC: A quality control tool for high throughput sequence data.
-
-Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate. Journal of the Royal Statistical Society: Series B, 57(1), 289–300.
-
 Blighe, K., Rana, S., & Lewis, M. (2023). EnhancedVolcano: Publication-ready volcano plots (R package).
 
+Cebollero, E., Gonzalez, R., & Carrascosa, A. V. (2005). Transcriptional profiling of flor yeast during wine aging: Repression of fermentation and induction of oxidative metabolism. Applied and Environmental Microbiology, 71(12), 7900–7907.
+
 Ewels, P., Magnusson, M., Lundin, S., & Käller, M. (2016). MultiQC. Bioinformatics, 32(19), 3047–3048.
+
+Fidalgo, M., Barrales, R. R., Ibeas, J. I., & Jimenez, J. (2006). Adaptive evolution by mutations in the FLO11 gene. Molecular Biology of the Cell, 17(8), 3359–3368.
+
+Gasch, A. P. et al. Brown, P. O. (2000). Genomic expression programs in the response of yeast cells to environmental changes. Molecular Biology of the Cell, 11(12), 4241–4257.
+
+Hohmann, S. (2002). Osmotic stress signaling and osmoadaptation in yeasts. Microbiology and Molecular Biology Reviews, 66(2), 300–372.
 
 Kolde, R. (2019). pheatmap: Pretty heatmaps (R package).
 
@@ -290,22 +286,22 @@ NCBI SRA Toolkit. (2023). SRA Toolkit (Version 3.x).
 
 Patro, R., Duggal, G., Love, M. I., Irizarry, R. A., & Kingsford, C. (2017). Salmon. Nature Methods, 14(4), 417–419.
 
+Piper, P. (1995). The heat shock and ethanol stress responses of yeast exhibit extensive similarity and functional overlap. FEMS Microbiology Letters, 134(2–3), 121–127.
+
 R Core Team. (2023). R: A language and environment for statistical computing.
 
 Soneson, C., Love, M. I., & Robinson, M. D. (2015). Tximport. F1000Research, 4, 1521.
+
+Subramanian, A. et al. (2005). Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. Proceedings of the National Academy of Sciences, 102(43), 15545–15550.
+
+Verstrepen, K. J., & Klis, F. M. (2006). Flocculation, adhesion and biofilm formation in yeasts. Molecular Microbiology, 60(1), 5–15.
+
+Wang, Z., Gerstein, M., & Snyder, M. (2009). RNA-seq: A revolutionary tool for transcriptomics. Nature Reviews Genetics, 10(1), 57–63.
 
 Yu, G., Wang, L. G., Han, Y., & He, Q. Y. (2012). clusterProfiler. OMICS, 16(5), 284–287.
 
 Zhu, A., Ibrahim, J. G., & Love, M. I. (2018). apeglm. Bioinformatics, 35(12), 2084–2092.
 
-Alexandre, H. (2013). Flor yeasts of Saccharomyces cerevisiae—Their ecology, genetics and metabolism. International Journal of Food Microbiology, 167(2), 161–169.
-
-Cebollero, E., Gonzalez, R., & Carrascosa, A. V. (2005). Transcriptional profiling of flor yeast during wine aging: Repression of fermentation and induction of oxidative metabolism. Applied and Environmental Microbiology, 71(12), 7900–7907.
-
-Fidalgo, M., Barrales, R. R., Ibeas, J. I., & Jimenez, J. (2006). Adaptive evolution by mutations in the FLO11 gene. Molecular Biology of the Cell, 17(8), 3359–3368.
-
-Hohmann, S. (2002). Osmotic stress signaling and osmoadaptation in yeasts. Microbiology and Molecular Biology Reviews, 66(2), 300–372.
-
-Piper, P. (1995). The heat shock and ethanol stress responses of yeast exhibit extensive similarity and functional overlap. FEMS Microbiology Letters, 134(2–3), 121–127.
-
 Zara, G., Zara, S., Pinna, C., Marceddu, S., & Budroni, M. (2009). Flor yeast biofilm formation and oxidative metabolism during wine aging. Applied and Environmental Microbiology, 75(15), 5036–5045.
+
+Zhu, A., Ibrahim, J. G., & Love, M. I. (2018). Heavy-tailed prior distributions for sequence count data: Removing the noise and preserving large differences. Bioinformatics, 35(12), 2084–2092.
