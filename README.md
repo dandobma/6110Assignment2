@@ -177,7 +177,7 @@ Across all contrasts, differential expression results were adjusted for multiple
 
 To further examine transcriptional differences across stages, a heatmap of the top 50 most variable genes was generated using variance-stabilized expression values (Figure 3). Hierarchical clustering of samples separated the three developmental stages into distinct branches. Genes formed clusters corresponding to stage-specific expression patterns. Early samples clustered together and were distinct from thin and mature samples. Thin and mature samples also formed separate clusters, consistent with PCA results.
 
-![Figure 3](figures/fig_heatmap_top50var.png)
+![Figure 3](figures/fig3_heatmap_top50var.png)
 
 ### Figure 3: Heatmap of the top 50 most variable genes across samples.
 #### Heatmap showing variance-stabilized expression values for the 50 genes with the highest variance across all samples. Rows represent genes and columns represent individual biological replicates. Samples are annotated by developmental stage (early, thin, mature). Expression values are scaled by gene (row-wise z-score). Hierarchical clustering was performed using Euclidean distance and complete linkage for both genes and samples.
