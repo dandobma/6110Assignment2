@@ -22,3 +22,49 @@ The objective of this study is therefore to characterize transcriptional changes
 
 
 # Methods
+
+## Computational Environment
+
+All preprocessing and transcript quantification were performed in Windows Subsystem for Linux (WSL) running Ubuntu 22.04 LTS. Downstream statistical and functional analyses were conducted in R (version 4.3.x; R Core Team, 2023). All command-line scripts are provided in the scripts/ directory, and the complete R workflow is documented in scripts/04_deseq2_ora.R.
+
+## Data Acquisition and FASTQ Preparation
+
+Raw RNA-seq data were downloaded from the NCBI Sequence Read Archive (SRA) using accession numbers corresponding to three developmental stages of velum formation (early, thin, and mature; three biological replicates per stage).
+Downloads and FASTQ conversion were performed using SRA Toolkit v3.x, specifically the fasterq-dump and prefetch utilities (NCBI SRA Toolkit, 2023). Automated download and compression were handled using:
+
+[`scripts/01_download_sra.sh`](scripts/01_download_sra.sh)
+
+This script attempted direct FASTQ conversion via fasterq-dump and implemented a fallback strategy using prefetch when necessary to ensure robust data retrieval. Resulting FASTQ files were gzip-compressed and stored in data/fastq/.
+
+## Quality Control
+
+Sequencing quality assessment was performed using FastQC v0.11.x (Andrews, 2010), and summary reports were generated using MultiQC v1.x (Ewels et al., 2016). These steps were automated via:
+
+[`scripts/02_qc.sh`](scripts/02_qc.sh)
+
+Quality reports were saved in results/qc/ and inspected to verify overall sequence quality, adapter content, and base quality distribution prior to quantification.
+
+## Reference Preparation
+
+The Saccharomyces cerevisiae reference transcriptome (R64-1-1 cDNA) and corresponding gene annotation (GTF; Ensembl release 111) were downloaded from the Ensembl FTP repository. The transcriptome FASTA file was decompressed and used to construct a Salmon index.
+
+## Salmon Index Construction
+
+Transcriptome indexing was performed using Salmon v1.10.3 (Patro et al., 2017) with a k-mer size of 31:
+
+salmon index \
+ -t reference/Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa \
+ -i reference/salmon_index \
+ -k 31
+ 
+Salmon uses a lightweight quasi-mapping approach (pufferfish index) for efficient transcript-level quantification (Patro et al., 2017).
+
+## Transcript Quantification
+
+Transcript abundance was quantified in single-end mode using Salmon v1.10.3 with selective alignment validation and bias correction options enabled (--validateMappings, --gcBias, --seqBias, --posBias). Quantification was automated using:
+
+[`scripts/03_salmon_quant.sh`](scripts/03_salmon_quant.sh)
+
+For each sample, Salmon generated transcript-level abundance estimates in results/salmon/<sample>/quant.sf.
+
+## Transcript-to-Gene Summarization
