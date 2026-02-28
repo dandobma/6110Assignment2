@@ -6,3 +6,10 @@ results/qc/
 .Rhistory
 .RData
 .Rproj.user/
+
+# SRA / fasterq temp folders + FASTQ-like outputs
+fasterq.tmp*/
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
