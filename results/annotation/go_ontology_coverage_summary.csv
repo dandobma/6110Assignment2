@@ -1,0 +1,10 @@
+contrast,n_sig,ontology,n_genes
+mature_vs_early,2180,BP,2001
+mature_vs_early,2180,MF,2002
+mature_vs_early,2180,CC,2000
+mature_vs_thin,1763,BP,1614
+mature_vs_thin,1763,MF,1615
+mature_vs_thin,1763,CC,1614
+thin_vs_early,947,BP,877
+thin_vs_early,947,MF,878
+thin_vs_early,947,CC,875
