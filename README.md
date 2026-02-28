@@ -123,6 +123,11 @@ All shell scripts ([`scripts/01_download_sra.sh`](scripts/01_download_sra.sh), [
 
 # Results
 
-## Principal component analysis (PCA) was performed on variance-stabilized gene expression values to assess global transcriptomic structure across samples ([figures/fig1_pca.png](Figure 1)). The first principal component (PC1) explained 72% of the total variance, while the second principal component (PC2) explained 22%. Samples clustered according to developmental stage, with early, thin, and mature biofilm samples forming three distinct groups. Replicates within each stage clustered closely together, indicating consistency among biological replicates.
+Principal component analysis (PCA) was performed on variance-stabilized gene expression values to assess global transcriptomic structure across samples ([Figure 1](figures/fig1_pca.png)). The first principal component (PC1) explained 72% of the total variance, while the second principal component (PC2) explained 22%. Samples clustered according to developmental stage, with early, thin, and mature biofilm samples forming three distinct groups. Replicates within each stage clustered closely together, indicating consistency among biological replicates.
 
+![Figure 1](figures/fig1_pca.png)
+
+### Figure 1: Principal component analysis of transcriptomic profiles across velum developmental stages.
+
+Principal component analysis (PCA) was performed on variance-stabilized gene expression values derived from DESeq2. Each point represents one biological replicate (n = 3 per stage). Samples are colored by developmental stage (early, thin, mature). The first principal component (PC1) explains 72% of the total variance, and the second principal component (PC2) explains 22% of the variance. Samples cluster by developmental stage, indicating distinct global transcriptional profiles.
 
