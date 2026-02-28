@@ -152,7 +152,7 @@ Principal component analysis (PCA) was performed on variance-stabilized gene exp
 ![Figure 1](figures/fig1_pca.png)
 
 ### Figure 1: Principal component analysis of transcriptomic profiles across velum developmental stages.
-####Principal component analysis (PCA) was performed on variance-stabilized gene expression values derived from DESeq2. Each point represents one biological replicate (n = 3 per stage). Samples are colored by developmental stage (early, thin, mature). The first principal component (PC1) explains 72% of the total variance, and the second principal component (PC2) explains 22% of the variance. Samples cluster by developmental stage, indicating distinct global transcriptional profiles.
+#### Principal component analysis (PCA) was performed on variance-stabilized gene expression values derived from DESeq2. Each point represents one biological replicate (n = 3 per stage). Samples are colored by developmental stage (early, thin, mature). The first principal component (PC1) explains 72% of the total variance, and the second principal component (PC2) explains 22% of the variance. Samples cluster by developmental stage, indicating distinct global transcriptional profiles.
 
 ---
 
@@ -171,7 +171,7 @@ Across all contrasts, differential expression results were adjusted for multiple
 ![Figure 2C](figures/fig2_volcano_thin_vs_early.png)
 
 ### Figure 2: Volcano plots of differential gene expression across pairwise developmental stage comparisons.
-####Volcano plots summarizing differential expression results for (A) thin vs. early, (B) mature vs. early, and (C) mature vs. thin comparisons. The x-axis shows log₂ fold change, and the y-axis shows –log₁₀ adjusted p-value. Genes meeting significance thresholds (adjusted p-value < 0.05 and |log₂ fold change| ≥ 1) are highlighted. Selected significantly differentially expressed genes are labeled. Multiple testing correction was performed using the Benjamini–Hochberg procedure.
+#### Volcano plots summarizing differential expression results for (A) thin vs. early, (B) mature vs. early, and (C) mature vs. thin comparisons. The x-axis shows log₂ fold change, and the y-axis shows –log₁₀ adjusted p-value. Genes meeting significance thresholds (adjusted p-value < 0.05 and |log₂ fold change| ≥ 1) are highlighted. Selected significantly differentially expressed genes are labeled. Multiple testing correction was performed using the Benjamini–Hochberg procedure.
 
 ---
 
